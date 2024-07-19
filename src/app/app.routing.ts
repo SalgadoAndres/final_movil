@@ -12,7 +12,7 @@ import { CarritoComponent } from "./components/carrito/carrito";
 
 
 export const appRoutes: any = [
-  { path: '', redirectTo: 'login', pathMatch: 'full' },
+  { path: '', redirectTo: 'carrito', pathMatch: 'full' },
   { path: "login", component: LoginComponent },
   { path: "verperfil", component: VerPerfilComponent },
   { path: "registro", component: RegistroComponent },
